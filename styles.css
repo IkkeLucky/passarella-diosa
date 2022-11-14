@@ -31,3 +31,48 @@ p {
 body {
     width: 100%;
 }
+
+#header {
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 80px;
+    background-color: #e3e6f3;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.06);
+}
+
+#nav {
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+}
+
+#nav li {
+    list-style: none;
+    padding: 0 20px;
+    position: relative;
+}
+
+#nav li a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #1a1a1a;
+    transition: 0.3s ease;
+}
+
+#nav li a:hover,
+#nav li a.active {
+    color: #008178;
+}
+
+#nav li a.active::after,
+#nav li a:hover::after {
+    content: "";
+    width: 20%;
+    height: 1px;
+    background: #008178;
+    position: absolute;
+    bottom: -4px;
+    left: 20px;
+}
