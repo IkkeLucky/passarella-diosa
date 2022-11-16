@@ -128,9 +128,121 @@ body {
     border: 1px solid #cce7d0;
     border-radius: 4px;
     margin: 15px 0;
+}
 
+#feature .fBox img {
+    width: 100%;
+    margin-bottom: 10px;
 }
 
 #feature .fBox:hover {
     box-shadow: 10px 10px 54px rgba(70, 62, 221, 0.1);
+}
+
+#feature .fBox h6 {
+    display: inline-block;
+    padding: 9px 8px 6px 8px;
+    line-height: 1;
+    border-radius: 4px;
+    color: #008178;
+    background-color: #fddde4;
+}
+
+#feature .fBox:nth-child(2) h6 {
+    background-color: #cdebbc;
+}
+#feature .fBox:nth-child(3) h6 {
+    background-color: #d1e8f2;
+}
+#feature .fBox:nth-child(4) h6 {
+    background-color: #cdd4f8;
+}
+#feature .fBox:nth-child(5) h6 {
+    background-color: #f6dbf6;
+}
+#feature .fBox:nth-child(6) h6 {
+    background-color: #fff2e5;
+}
+
+#feature {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#product1 {
+    text-align: center;
+}
+
+#product1 .pro {
+    width: 23%;
+    min-width: 250px;
+    padding: 10px 12px;
+    border: 1px solid #cce7d0;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
+    margin: 15px 0;
+    transition: 0.2s ease;
+    position: relative;
+
+}
+
+#product1 .pro:hover {
+    box-shadow: 20px 20px 30px , rgba(0, 0, 0, 0.06);
+}
+
+#product1 .pro img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+#product1 .pro .des {
+    text-align: start;
+    padding: 10px 0;
+
+}
+
+#product1 .pro .des span {
+    color: #606063;
+    font-size: 12px;
+}
+
+#product1 .pro .des h5 {
+    padding-top: 7px;
+    font-size: 14px;
+    color: #1a1a1a;
+}
+
+#product1 .pro .des i {
+    font-size: 12px;
+    color: rgb(243, 181, 25);
+}
+
+#product1 .pro .des h4 {
+    padding-top: 7px;
+    font-size: 15px;
+    font-weight: 700;
+    color: #008178;
+}
+
+#icon {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50px;
+    background-color: #e8f6ea;
+    color: #008178;
+    border: 1px solid #cce7d0;
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
+}
+
+#product1 .proContainer {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    flex-wrap: wrap;
 }
