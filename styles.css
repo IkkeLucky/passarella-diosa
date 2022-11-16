@@ -319,7 +319,7 @@ body {
     justify-content: center;
     align-items: flex-start;
     background-image: url(img/banner/b17.jpg);
-    min-width: 765px;
+    min-width: 580px;
     height: 50vh;
     background-size: cover;
     background-position: center;
@@ -389,9 +389,9 @@ body {
 }
 
 #banner3 .bannerBox2 {
-    background-image: url("img/banner/b4.jpg");
+    background-image: url(img/banner/b4.jpg);
 }
 
 #banner3 .bannerBox3 {
-    background-image: url("img/banner/b18.jpg");
+    background-image: url(img/banner/b18.jpg);
 }
