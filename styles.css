@@ -774,21 +774,25 @@ footer .copyright {
     #newsletter .form {
         width: 100%;
     }
-}
 
 /* single product */
 
-#prodetails {
+    #prodetails {
     display: flex;
     flex-direction: column;
-}
+    }
 
-#prodetails .singleProimage{
+    #prodetails .singleProimage{
     width: 100%;
     margin-right: 0px;
+    }
+
+    #prodetails .singleProDetails {
+    width: 100%;
+    }
+
+
 }
 
-#prodetails .singleProDetails {
-    width: 100%;
-}
+
 
