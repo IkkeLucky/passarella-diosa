@@ -794,6 +794,41 @@ footer .copyright {
 }
 
 
+/* About Page  */
+
+#pageHeader.aboutHeader {
+    background-image: url(img/about/banner.png);
+}
+
+#aboutHead img {
+    width: 50%;
+    height: auto;
+}
+
+#aboutHead {
+    display: flex;
+    align-items: center;
+}
+
+#aboutHead div {
+    padding-left: 40px;
+}
+
+#aboutVideo {
+    text-align: center;
+}
+
+#aboutVideo .video {
+    width: 70%;
+    height: 100%;
+    margin: 30px auto 0 auto;
+}
+
+#aboutVideo .video video {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
 
 
 
@@ -889,7 +924,25 @@ footer .copyright {
     }
 
 
-    
+    /* About Page */
+
+    #aboutHead {
+        flex-direction: column;
+    }
+
+    #aboutHead img {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    #aboutHead div {
+        padding-left: 0px;
+    }
+
+    #aboutVideo .video {
+        width: 100%;
+    }
+
 
 
 
