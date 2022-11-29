@@ -110,7 +110,7 @@ body {
 
 #navi li a:hover,
 #navi li a.active {
-    color: #008178;
+    color: #d7837d;
 }
 
 #navi li a.active::after,
@@ -118,7 +118,7 @@ body {
     content: "";
     width: 20%;
     height: 1px;
-    background: #008178;
+    background: #d7837d;
     position: absolute;
     bottom: -4px;
     left: 20px;
@@ -134,36 +134,107 @@ body {
 }
 
 #hero {
-    background-image: url(img/Pasarellight.png);
-    height: 90vh;
-    width: 100%;
-    background-size: cover;
-    background-position: top 75% left 50%;
-    padding: 0 80px;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     justify-content: center;
+    background-color: black;
 }
 
 #hero h3 {
     padding-bottom: 15px;
+    color: #c9cbce;
 }
 
 #hero h1 {
-    color: #008178;
+    color: #d7837d;
 }
 
-#hero button {
-    background-image: url(img/button.png);
-    background-color: transparent;
-    color: black;
-    border: 0;
-    padding: 25px 80px 25px 65px;
-    background-repeat: no-repeat;
-    cursor: pointer;
-    font-weight: 600;
-    font-size: 15px;
+.row1 {
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.row2 {
+    width: 45%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.row3 {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.pillar1 {
+    width: 30%;
+    animation: frame2 5s linear infinite;
+}
+.pillar2 {
+    width: 30%;
+    animation: frame 5s linear infinite;
+}
+.pillar3 {
+    width: 30%;
+    animation: frame2 5s linear infinite;
+}
+.pillar4 {
+    width: 30%;
+    animation: frame 5s linear infinite;
+}
+.pillar5 {
+    width: 30%;
+    animation: frame2 5s linear infinite;
+}
+.pillar6 {
+    width: 30%;
+    animation: frame 5s linear infinite;
+}
+
+.model {
+    display: flex;
+    padding-bottom: 30px;
+    margin-top: 15px;
+}
+
+@keyframes frame {
+    0% {
+        transform: scale(.9);
+        opacity: 0;
+    }
+    20% {
+        transform: scale(1);
+        opacity: 1;
+    }
+    80% {
+        transform: scale(1);
+        opacity: 1;
+    }
+    100% {
+        transform: translateX(100px);
+        opacity: 0;
+    }
+}
+
+@keyframes frame2 {
+    0% {
+        transform: scale(.9);
+        opacity: 0;
+    }
+    20% {
+        transform: scale(1);
+        opacity: 1;
+    }
+    80% {
+        transform: scale(1);
+        opacity: 1;
+    }
+    100% {
+        transform: translateX(-100px);
+        opacity: 0;
+    }
 }
 
 #feature {
@@ -194,7 +265,7 @@ body {
     padding: 9px 8px 6px 8px;
     line-height: 1;
     border-radius: 4px;
-    color: #008178;
+    color: #d7837d;
     background-color: #fddde4;
 }
 
@@ -275,7 +346,7 @@ body {
     padding-top: 7px;
     font-size: 15px;
     font-weight: 700;
-    color: #008178;
+    color: #d7837d;
 }
 
 #icon {
@@ -284,7 +355,7 @@ body {
     line-height: 40px;
     border-radius: 50px;
     background-color: #e8f6ea;
-    color: #008178;
+    color: #d7837d;
     border: 1px solid #cce7d0;
     position: absolute;
     bottom: 20px;
@@ -328,7 +399,7 @@ body {
 }
 
 #banner button:hover{
-    background-color: #008178;
+    background-color: #d7837d;
     color: #fff;
 }
 
@@ -372,8 +443,8 @@ body {
 }
 
 #smBanner .bannerBox:hover button{
-    background: #008178;
-    border: 1px solid #008178;
+    background: #d7837d;
+    border: 1px solid #d7837d;
 }
 
 #smBanner .bannerBox2 {
@@ -466,7 +537,7 @@ body {
 }
 
 #newsletter button {
-    background-color: #008178;
+    background-color: #d7837d;
     color: white;
     white-space: nowrap;
     border-top-left-radius: 0;
@@ -518,7 +589,7 @@ footer .follow i {
 }
 
 footer .install .row img {
-    border: 1px solid #008178;
+    border: 1px solid #d7837d;
     border-radius: 6px;
 }
 
@@ -528,7 +599,7 @@ footer .install img {
 
 footer .follow i:hover,
 footer a:hover {
-    color: #008178;
+    color: #d7837d;
 }
 
 footer .copyright {
@@ -604,7 +675,7 @@ footer .copyright {
 /* Shop Page */
 
 #pageHeader {
-    background-image: url(img/banner/b1.jpg);
+    background-image: url(img/diosa1.jpg);
     width: 100%;
     height: 40vh;
     background-size: cover;
@@ -626,7 +697,7 @@ footer .copyright {
 
 #pagination a {
     text-decoration: none;
-    background-color: #008178;
+    background-color: #d7837d;
     padding: 15px 20px;
     border-radius: 4px;
     color: #fff;
@@ -694,7 +765,7 @@ footer .copyright {
 }
 
 #prodetails .singleProDetails button {
-    background-color: #008178;
+    background-color: #d7837d;
     color: #fff;
 }
 
@@ -705,7 +776,7 @@ footer .copyright {
 /* Blog Page */
 
 #pageHeader.blogHeader {
-    background-image: url(img/banner/b19.jpg);
+    background-image: url(img/diosa3.jpg);
 }
 
 #blog {
@@ -756,11 +827,11 @@ footer .copyright {
 }
 
 #blog .blogDetails a:hover {
-    color: #008178;
+    color: #d7837d;
 }
 
 #blog .blogDetails a:hover::after {
-    background-color: #008178;
+    background-color: #d7837d;
 }
 
 #blog .blogBox h1 {
@@ -777,7 +848,7 @@ footer .copyright {
 /* About Page  */
 
 #pageHeader.aboutHeader {
-    background-image: url(img/about/banner.png);
+    background-image: url(img/diosa4.jpg);
 }
 
 #aboutHead img {
@@ -816,6 +887,14 @@ footer .copyright {
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+#pageHeader.contactHeader {
+    background-image: url(img/diosa5.jpg);
+}
+
+#pageHeader.contactHeader2 {
+    background-image: url(img/diosa2.jpg);
 }
 
 #contactDetails .details {
@@ -883,7 +962,7 @@ footer .copyright {
 }
 
 #formDetails form button {
-    background-color: #008178;
+    background-color: #d7837d;
     color: #fff;
 }
 
@@ -980,7 +1059,7 @@ footer .copyright {
 
 #coupon button,
 #subtotal button {
-    background-color: #008178;
+    background-color: #d7837d;
     color: #fff;
     padding: 12px 20px;
 }
@@ -1004,13 +1083,6 @@ footer .copyright {
     padding: 10px;
     font-size: 13px;
 }
-
-
-
-
-
-
-
 
 
 
@@ -1040,13 +1112,23 @@ footer .copyright {
         font-size: 38px;
     }
 
+    .row1 {
+        width: 60%;
+    }
+    .row2 {
+        width: 80%;
+    }
+    .row3 {
+        width: 100%;
+    }
+
 
     #feature {
     justify-content: space-between;
     }
 
     #feature .fBox {
-        width: 120px;
+        width: 100%;
         margin: 0 0 5px 0;
     }
 
