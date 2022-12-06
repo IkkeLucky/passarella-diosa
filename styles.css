@@ -237,6 +237,21 @@ body {
     }
 }
 
+#videoyt {
+    display: flex;
+    align-items: center;
+}
+
+.videoDiosa {
+    display: flex;
+    width: 100%;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
 #feature {
     padding: 40px 80px;
 }
@@ -863,6 +878,11 @@ footer .copyright {
 
 #aboutHead div {
     padding-left: 40px;
+}
+
+#aboutHead a {
+    text-decoration: none;
+    color: #d7837d;
 }
 
 #aboutVideo {
