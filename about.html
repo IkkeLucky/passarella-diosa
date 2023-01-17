@@ -106,5 +106,30 @@
         </div>
     </footer>
 
+    <div id="playButton">
+        <img src="/img/playbutton.png" alt="" id="iconMusic">
+    </div>
+
+    <audio id="mySong">
+        <source src="dessertrose.mp3" type="audio/mp3">
+    </audio>
+
+    <script>
+        var mySong = document.getElementById('mySong');
+        var icon = document.getElementById('iconMusic');
+
+        icon.onclick = function() {
+            if(mySong.paused) {
+                mySong.play();
+                icon.src = "/img/pausebutton.png"
+            }else{
+                mySong.pause();
+                icon.src = "/img/playbutton.png"
+            }
+        }
+
+    </script>
+
+
 </body>
 </html>
