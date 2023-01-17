@@ -139,6 +139,7 @@ body {
     align-items: center;
     justify-content: center;
     background-color: black;
+    margin-bottom: 15px;
 }
 
 #hero h3 {
@@ -646,8 +647,6 @@ footer .copyright {
         padding-left: 0px;
     }
 
-
-
     #hero {
         height: 70vh;
         padding: 0 80px;
@@ -686,7 +685,10 @@ footer .copyright {
     #newsletter .form {
         width: 70%;
     } 
+
+
 }
+
 /* Shop Page */
 
 #pageHeader {
@@ -869,20 +871,34 @@ footer .copyright {
 #aboutHead img {
     width: 30%;
     height: auto;
+    border-radius: 15%;
 }
 
 #aboutHead {
     display: flex;
     align-items: center;
+    margin-bottom: 15px;
+    opacity: 70%;
+}
+
+#aboutHead:hover {
+    opacity: 100%;
+    transition: opacity 1s;
 }
 
 #aboutHead div {
     padding-left: 40px;
+    padding-right: 40px;
 }
+
 
 #aboutHead a {
     text-decoration: none;
     color: #d7837d;
+}
+
+#aboutHead p {
+    font-size: calc(15px + 0.390625vw)
 }
 
 #aboutVideo {
@@ -1215,6 +1231,7 @@ footer .copyright {
 
     #aboutHead {
         flex-direction: column;
+        opacity: 1;
     }
 
     #aboutHead img {
