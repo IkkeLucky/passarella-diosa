@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@200&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/bae92ef3f4.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-9BSTFSXG9N"></script>
     <script>
@@ -29,32 +30,39 @@
             <li><a class="active" href="index.html">Home</a></li>
             <li><a href="shop.html">Shop</a></li>
             <li><a href="blog.html">Blog</a></li>
-            <li><a href="about.html">About</a></li>
+            <li><a href="about.html">Press</a></li>
             <li><a href="contact.html">Contact</a></li>
             <li id="lgBag"><a href="cart.html"><i class="fa-solid fa-basket-shopping"></i></a></li>
             </ul>
         </div>
     </section>
 
-    <section id="hero">
-        <div class="model">
-            <h3>Coming soon</h3>
-            <h1>PassarellaDiosa</h1>
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="/img/model1.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="/img/model2.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="/img/model3.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="/img/model4.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="/img/model5.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="/img/model6.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="/img/model7.jpg" alt=""></div>
         </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+    </div>
     
-        <div class="row1">
-            <img src="img/greekpillar.jpg" alt="" class="pillar1">
-            <img src="img/greekpillar.jpg" alt="" class="pillar2">
-        </div>
-        <div class="row2">
-            <img src="img/greekpillar.jpg" alt="" class="pillar3">
-            <img src="img/greekpillar.jpg" alt="" class="pillar4">
-        </div>
-        <div class="row3">
-            <img src="img/greekpillar.jpg" alt="" class="pillar5">
-            <img src="img/greekpillar.jpg" alt="" class="pillar6">
-        </div>
-    </section>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+    </script>
 
     <section id="aboutHead" class="sectionp1">
         <img src="img/sarah.png" alt="">
