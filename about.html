@@ -31,7 +31,7 @@
             <li><a href="blog.html">Blog</a></li>
             <li><a class="active" href="about.html">Press</a></li>
             <li><a href="contact.html">Contact</a></li>
-            <li id="lgBag"><a href="cart.html"><i class="fa-solid fa-basket-shopping"></i></a></li>
+            <li id="lgBag"><i class="fa-solid fa-basket-shopping cart-btn"></i></li>
             <a href="#" id="closed"><i class="far fa-times"></i></a>
             </ul>
         </div>
@@ -41,6 +41,39 @@
         <h2>PassarrellaDiosa</h2>
         <p>Get to know about our story</p>
     </section>
+
+    <section class="products-center">
+        <article class="product">
+            <div class="img-container">
+                <img src="/img/bluetee.jpg" alt="product" class="product-img">
+                <button class="bag-btn" data-id="1">
+                    <i class="fas fa-shopping-cart"></i>
+                </button>
+            </div>
+            <h3>queen bed</h3>
+            <h4>$16</h4>
+        </article>
+    </section>
+
+    <div class="cart-overlay">
+        <div class="cart">
+            <span class="close-cart">
+                <i class="fas fa-window-close"></i>
+            </span>
+            <h2>your cart</h2>
+            <div class="cart-content">
+                <!-- cart item -->
+                <div class="cart-item">
+                    
+                </div>
+                <!-- cart item -->
+            </div>
+            <div class="cart-footer">
+                <h3>your total : $ <span class="cart-total">0</span></h3>
+                <button class="clear-cart banner-btn">clear cart</button>
+            </div>
+        </div>
+    </div>
 
     <section id="newsletter" class="sectionp1 sectionm1">
         <div class="newstext">
@@ -129,6 +162,10 @@
         }
 
     </script>
+
+
+    <script src="cart.js" type="text/javascript"></script>
+
 
 
 </body>
