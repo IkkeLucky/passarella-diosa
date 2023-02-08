@@ -26,8 +26,17 @@ html,body
     right: 50px;
 }
 
-.swiper {
+.swiperbg {
     width: 100%;
+    height: 85vh;
+    background-image: url(img/passarella.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.swiper {
+    width: 50%;
     height: 100%;
 }
 
@@ -1434,8 +1443,8 @@ footer .copyright {
   }
   @media screen and (min-width: 768px) {
     .cart {
-      width: 30vw;
-      min-width: 450px;
+    width: 30vw;
+    min-width: 450px;
     }
   }
   
@@ -1495,3 +1504,33 @@ footer .copyright {
   }
   
   /* --------------- End of Cart ---------------- */
+
+.panel{
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+    padding: 25px;
+    margin: 25px;
+    border: 1px solid rgba(000,000,000,0.5);
+    border-radius: 40px;
+    background-color: rgba(215, 131, 125, 0.25);
+    backdrop-filter: blur(50px);
+}
+
+.panelText a {
+    text-decoration: none;
+    color: #000;
+    transition: 0.3s;
+}
+.panelText a:hover {
+    color: #d7837d;
+}
+
+.panelText a:hover::after {
+    background-color: #d7837d;
+}
+
+.panelImg img {
+    width: 60%;
+    border-radius: 25px;
+}

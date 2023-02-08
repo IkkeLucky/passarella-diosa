@@ -22,223 +22,58 @@
 
 
 <body>
-
+    
     <section id="header">
         <div>
             <ul id="navi">
             <li><a href="index.html">Home</a></li>
             <li><a class="active" href="shop.html">Shop</a></li>
             <li><a href="blog.html">Blog</a></li>
-            <li><a href="about.html">Press</a></li>
+            <li><a href="press.html">Press</a></li>
             <li><a href="contact.html">Contact</a></li>
-            <li id="lgBag"><a href="cart.html"><i class="fa-solid fa-basket-shopping"></i></a></li>
+            <li id="lgBag"><i class="fa-solid fa-basket-shopping cart-btn"></i></li>
             <a href="#" id="closed"><i class="far fa-times"></i></a>
             </ul>
         </div>
     </section>
 
-    <section id="pageHeader">
+    <section id="pageHeader" class="aboutHeader">
         <h2>PassarrellaDiosa</h2>
         <p>Summer Sales! Up to 60% off</p>
     </section>
 
-    <section id="product1" class="sectionp1">
-        <div class="proContainer">
-            <div class="pro" onclick="window.location.href='singleproduct.html'">
-                <img src="img/products/f1.jpg" alt="">
-                <div class="des">
-                    <span>Adidas</span>
-                    <h5>Cartoon Astronaut</h5>
-                    <div class="star">
-                        <i class="fas fa-star"></i>
-                    </div>
-                    <h4>$78</h4>
-                </div>
-                <a href="#"><i id="icon" class="fa-solid fa-basket-shopping"></i></a>
+    <section class="products-center">
+        <!-- <article class="product">
+            <div class="img-container">
+                <img src="/img/bluetee.jpg" alt="product" class="product-img">
+                <button class="bag-btn" data-id="1">
+                    <i class="fas fa-shopping-cart"></i>
+                </button>
             </div>
-            <div class="pro" onclick="window.location.href='singleproduct.html'">
-                <img src="img/products/f2.jpg" alt="">
-                <div class="des">
-                    <span>Adidas</span>
-                    <h5>Cartoon Astronaut</h5>
-                    <div class="star">
-                        <i class="fas fa-star"></i>
-                    </div>
-                    <h4>$78</h4>
-                </div>
-                <a href="#"><i id="icon" class="fa-solid fa-basket-shopping"></i></a>
-            </div>
-            <div class="pro" onclick="window.location.href='singleproduct.html'">
-                <img src="img/products/f3.jpg" alt="">
-                <div class="des">
-                    <span>Adidas</span>
-                    <h5>Cartoon Astronaut</h5>
-                    <div class="star">
-                        <i class="fas fa-star"></i>
-                    </div>
-                    <h4>$78</h4>
-                </div>
-                <a href="#"><i id="icon" class="fa-solid fa-basket-shopping"></i></a>
-            </div>
-            <div class="pro" onclick="window.location.href='singleproduct.html'">
-                <img src="img/products/f4.jpg" alt="">
-                <div class="des">
-                    <span>Adidas</span>
-                    <h5>Cartoon Astronaut</h5>
-                    <div class="star">
-                        <i class="fas fa-star"></i>
-                    </div>
-                    <h4>$78</h4>
-                </div>
-                <a href="#"><i id="icon" class="fa-solid fa-basket-shopping"></i></a>
-            </div>
-            <div class="pro">
-                <img src="img/products/f5.jpg" alt="">
-                <div class="des">
-                    <span>Adidas</span>
-                    <h5>Cartoon Astronaut</h5>
-                    <div class="star">
-                        <i class="fas fa-star"></i>
-                    </div>
-                    <h4>$78</h4>
-                </div>
-                <a href="#"><i id="icon" class="fa-solid fa-basket-shopping"></i></a>
-            </div>
-            <div class="pro">
-                <img src="img/products/f6.jpg" alt="">
-                <div class="des">
-                    <span>Adidas</span>
-                    <h5>Cartoon Astronaut</h5>
-                    <div class="star">
-                        <i class="fas fa-star"></i>
-                    </div>
-                    <h4>$78</h4>
-                </div>
-                <a href="#"><i id="icon" class="fa-solid fa-basket-shopping"></i></a>
-            </div>
-            <div class="pro">
-                <img src="img/products/f7.jpg" alt="">
-                <div class="des">
-                    <span>Adidas</span>
-                    <h5>Cartoon Astronaut</h5>
-                    <div class="star">
-                        <i class="fas fa-star"></i>
-                    </div>
-                    <h4>$78</h4>
-                </div>
-                <a href="#"><i id="icon" class="fa-solid fa-basket-shopping"></i></a>
-            </div>
-            <div class="pro">
-                <img src="img/products/f8.jpg" alt="">
-                <div class="des">
-                    <span>Adidas</span>
-                    <h5>Cartoon Astronaut</h5>
-                    <div class="star">
-                        <i class="fas fa-star"></i>
-                    </div>
-                    <h4>$78</h4>
-                </div>
-                <a href="#"><i id="icon" class="fa-solid fa-basket-shopping"></i></a>
-            </div>
+            <h3>queen bed</h3>
+            <h4>$16</h4>
+        </article> -->
+    </section>
 
-            <div class="pro">
-                <img src="img/products/n1.jpg" alt="">
-                <div class="des">
-                    <span>Adidas</span>
-                    <h5>Cartoon Astronaut</h5>
-                    <div class="star">
-                        <i class="fas fa-star"></i>
-                    </div>
-                    <h4>$78</h4>
+    <div class="cart-overlay">
+        <div class="cart">
+            <span class="close-cart">
+                <i class="fas fa-window-close"></i>
+            </span>
+            <h2>your cart</h2>
+            <div class="cart-content">
+                <!-- cart item -->
+                <div class="cart-item">
+                    
                 </div>
-                <a href="#"><i id="icon" class="fa-solid fa-basket-shopping"></i></a>
+                <!-- cart item -->
             </div>
-            <div class="pro">
-                <img src="img/products/n2.jpg" alt="">
-                <div class="des">
-                    <span>Adidas</span>
-                    <h5>Cartoon Astronaut</h5>
-                    <div class="star">
-                        <i class="fas fa-star"></i>
-                    </div>
-                    <h4>$78</h4>
-                </div>
-                <a href="#"><i id="icon" class="fa-solid fa-basket-shopping"></i></a>
-            </div>
-            <div class="pro">
-                <img src="img/products/n3.jpg" alt="">
-                <div class="des">
-                    <span>Adidas</span>
-                    <h5>Cartoon Astronaut</h5>
-                    <div class="star">
-                        <i class="fas fa-star"></i>
-                    </div>
-                    <h4>$78</h4>
-                </div>
-                <a href="#"><i id="icon" class="fa-solid fa-basket-shopping"></i></a>
-            </div>
-            <div class="pro">
-                <img src="img/products/n4.jpg" alt="">
-                <div class="des">
-                    <span>Adidas</span>
-                    <h5>Cartoon Astronaut</h5>
-                    <div class="star">
-                        <i class="fas fa-star"></i>
-                    </div>
-                    <h4>$78</h4>
-                </div>
-                <a href="#"><i id="icon" class="fa-solid fa-basket-shopping"></i></a>
-            </div>
-            <div class="pro">
-                <img src="img/products/n5.jpg" alt="">
-                <div class="des">
-                    <span>Adidas</span>
-                    <h5>Cartoon Astronaut</h5>
-                    <div class="star">
-                        <i class="fas fa-star"></i>
-                    </div>
-                    <h4>$78</h4>
-                </div>
-                <a href="#"><i id="icon" class="fa-solid fa-basket-shopping"></i></a>
-            </div>
-            <div class="pro">
-                <img src="img/products/n6.jpg" alt="">
-                <div class="des">
-                    <span>Adidas</span>
-                    <h5>Cartoon Astronaut</h5>
-                    <div class="star">
-                        <i class="fas fa-star"></i>
-                    </div>
-                    <h4>$78</h4>
-                </div>
-                <a href="#"><i id="icon" class="fa-solid fa-basket-shopping"></i></a>
-            </div>
-            <div class="pro">
-                <img src="img/products/n7.jpg" alt="">
-                <div class="des">
-                    <span>Adidas</span>
-                    <h5>Cartoon Astronaut</h5>
-                    <div class="star">
-                        <i class="fas fa-star"></i>
-                    </div>
-                    <h4>$78</h4>
-                </div>
-                <a href="#"><i id="icon" class="fa-solid fa-basket-shopping"></i></a>
-            </div>
-            <div class="pro">
-                <img src="img/products/n8.jpg" alt="">
-                <div class="des">
-                    <span>Adidas</span>
-                    <h5>Cartoon Astronaut</h5>
-                    <div class="star">
-                        <i class="fas fa-star"></i>
-                    </div>
-                    <h4>$78</h4>
-                </div>
-                <a href="#"><i id="icon" class="fa-solid fa-basket-shopping"></i></a>
+            <div class="cart-footer">
+                <h3>your total : $ <span class="cart-total">0</span></h3>
+                <button class="clear-cart banner-btn">clear cart</button>
             </div>
         </div>
-    </section>
+    </div>
 
     <section id="newsletter" class="sectionp1 sectionm1">
         <div class="newstext">
@@ -327,6 +162,10 @@
         }
 
     </script>
+
+
+    <script src="cart.js" type="text/javascript"></script>
+
 
 </body>
 </html>

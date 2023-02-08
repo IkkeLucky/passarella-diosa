@@ -3,33 +3,65 @@
     {
         "sys": { "id": "1" },
         "fields": {
-            "title": "queen panel bed",
+            "title": "Brown traveler shirt",
             "price": 10.99,
-            "image": { "fields": { "file": { "url": "./img/redtee.jpg" } } }
+            "image": { "fields": { "file": { "url": "./img/products/n7.jpg" } } }
         }
     },
     {
         "sys": { "id": "2" },
         "fields": {
-            "title": "king panel bed",
+            "title": "Black formal shirt",
             "price": 12.99,
-            "image": { "fields": { "file": { "url": "./img/greentee.jpg" } } }
+            "image": { "fields": { "file": { "url": "./img/products/n8.jpg" } } }
         }
     },
     {
         "sys": { "id": "3" },
         "fields": {
-            "title": "single panel bed",
+            "title": "Floral pants",
             "price": 12.99,
-            "image": { "fields": { "file": { "url": "./img/pinktee.jpg" } } }
+            "image": { "fields": { "file": { "url": "./img/products/f7.jpg" } } }
         }
     },
     {
         "sys": { "id": "4" },
         "fields": {
-            "title": "twin panel bed",
+            "title": "Cat camisole",
             "price": 22.99,
-            "image": { "fields": { "file": { "url": "./img/bluetee.jpg" } } }
+            "image": { "fields": { "file": { "url": "./img/products/f8.jpg" } } }
+        }
+    },
+    {
+        "sys": { "id": "5" },
+        "fields": {
+            "title": "Sunflower shirt",
+            "price": 22.99,
+            "image": { "fields": { "file": { "url": "./img/products/f5.jpg" } } }
+        }
+    },
+    {
+        "sys": { "id": "6" },
+        "fields": {
+            "title": "Sporty trousers",
+            "price": 22.99,
+            "image": { "fields": { "file": { "url": "./img/products/n6.jpg" } } }
+        }
+    },
+    {
+        "sys": { "id": "7" },
+        "fields": {
+            "title": "Designer stamp shirt",
+            "price": 22.99,
+            "image": { "fields": { "file": { "url": "./img/products/f1.jpg" } } }
+        }
+    },
+    {
+        "sys": { "id": "8" },
+        "fields": {
+            "title": "Casual shirt floral",
+            "price": 22.99,
+            "image": { "fields": { "file": { "url": "./img/products/f3.jpg" } } }
         }
     }
     ]
