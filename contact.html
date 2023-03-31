@@ -18,10 +18,44 @@
     gtag('js', new Date());
     gtag('config', 'G-9BSTFSXG9N');
     </script>
+    <script type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+    (function(){
+    emailjs.init("dspPzuC4sDTyvvdMU");
+    })();
+    </script>
 </head>
 
 
 <body>
+
+    <script>
+        function sendMail() {
+    var params = {
+        name : document.getElementById("name").value,
+        email: document.getElementById("email").value,
+        subject: document.getElementById("subject").value,
+        message: document.getElementById("message").value, 
+    };
+
+    const serviceID = "service_a3ldc2a";
+    const templateID = "template_ywvda0c";
+
+    emailjs
+    .send(serviceID, templateID, params)
+    .then((res) => {
+        document.getElementById("name").value = "";
+        document.getElementById("email").value = "";
+        document.getElementById("subject").value = "";
+        document.getElementById("message").value = "";
+        console.log(res);
+        alert("your message was sent successfully, thank you for your message!");
+    })
+    .catch((err) => console.log(err));
+}
+    </script>
 
     <section id="header">
         <div>
@@ -32,7 +66,6 @@
             <li><a href="press.html">Press</a></li>
             <li><a class="active" href="contact.html">Contact</a></li>
             <li id="lgBag"><a href="shop.html"><i class="fa-solid fa-basket-shopping"></i></a></li>
-            <a href="#" id="closed"><i class="far fa-times"></i></a>
             </ul>
         </div>
     </section>
@@ -50,24 +83,28 @@
 
             <li>
                 <i class="fa-solid fa-map"></i>
-                <p>56 Glassford Street Glasgow G1 1UL</p>
+                <p>Hohe Bleichen 8, 20354 Hamburg</p>
             </li>
             <li>
                 <i class="fa-regular fa-envelope"></i>
-                <p>contact@example</p>
+                <a href = "mailto: passarelladiosa@gmail.com" style="text-decoration: none; color: #d7837d;">Send Email</a>
             </li>
             <li>
                 <i class="fa-solid fa-phone"></i>
-                <p>contact@example</p>
+                <a href="https://wa.me/4915753206358" style="text-decoration: none; color: #d7837d;">Only Whatsapp Messages</a>
             </li>
             <li>
                 <i class="fa-regular fa-clock"></i>
                 <p>Monday to Saturday: 9.00am to 16.00pm</p>
             </li>
+            <li>
+                <i class="fa-solid fa-network-wired"></i>
+                <a href="https://www.ubc-collection.com/en/hamburg/conference-rooms/#c17484" style="text-decoration: none; color: #d7837d;" style="color: black;">Our Cowork</a>
+            </li>
         </div>
 
         <div class="map">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2239.2622187197367!2d-4.251323383918587!3d55.8581167913318!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x488846a1be870527%3A0x76ec9aeb1bb11444!2sGlassford%20St%2C%20Glasgow%20G1%201UL%2C%20UK!5e0!3m2!1sen!2sar!4v1669311347383!5m2!1sen!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2370.275546221217!2d9.985283215846238!3d53.55284848002277!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47b18f1a2287cf31%3A0x7cde207243f6b019!2sHohe%20Bleichen%208%2C%2020354%20Hamburg%2C%20Germany!5e0!3m2!1sen!2sar!4v1680272037963!5m2!1sen!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
     </section>
 
@@ -75,11 +112,11 @@
         <form action="">
             <span>LEAVE A MESSAGE</span>
             <h2>We love to hear from you</h2>
-            <input type="text" placeholder="Your Name">
-            <input type="text" placeholder="E-mail">
-            <input type="text" placeholder="Subject">
-            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message" style="resize: none;"></textarea>
-            <button class="normal">Submit</button>
+            <input type="text" id="name" placeholder="Your Name">
+            <input type="text" id="email" placeholder="Your E-mail">
+            <input type="text" id="subject" placeholder="Subject">
+            <textarea name="" id="message" cols="30" rows="10" placeholder="Your Message" style="resize: none;"></textarea>
+            <button type="button" class="normal" onclick="sendMail()">Submit</button>
         </form>
     </section>
 
@@ -96,19 +133,19 @@
 
     <footer class="sectionp1">
         <div class="col">
-            <img src="img/logo.png" alt="" class="logo">
+            <img src="img/logodiosapurple.jpg" height="180px" width="180px" alt="" class="logo">
             <h4>Contact</h4>
-            <p><strong>Address: </strong>562 Wellington Road, Street 32, San Francisco</p>
-            <p><strong>Phone: </strong>+01 2222 365, +91 2312 242</p>
+            <p><strong>Address: </strong>Hohe Bleichen 8, 20354 Hamburg</p>
+            <p><strong>Phone: </strong><a href="https://wa.me/4915753206358" style="text-decoration: none; color: #d7837d;">Only Whatsapp Messages</a></p>
             <p><strong>Hours: </strong>10:00 - 18:00, Mon - Sat</p>
             <div class="follow">
                 <h4>Follow us</h4>
                 <div class="icon2">
-                    <i class="fab fa-facebook-f"></i>
-                    <i class="fab fa-twitter"></i>
-                    <i class="fab fa-instagram"></i>
-                    <i class="fab fa-pinterest-p"></i>
-                    <i class="fab fa-youtube"></i>
+                    <a href="https://www.instagram.com/ladiosashop_soytudiosa/"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/LADIOSASHOPSOYTUDIOSA?mibextid=LQQJ4d"><i class="fab fa-facebook-f"></i></a>
+                    <a href=""><i class="fab fa-twitter"></i></a>
+                    <a href=""><i class="fab fa-pinterest-p"></i></a>
+                    <a href=""><i class="fab fa-youtube"></i></a>
                 </div>
             </div>
         </div>
@@ -143,7 +180,7 @@
         </div>
 
         <div class="copyright">
-            <p>2022, Ikkelucky - HTML CSS Ecommerce Diosa</p>
+            <p>2022, Ikkelucky - HTML CSS JS Ecommerce Diosa</p>
         </div>
     </footer>
 
@@ -170,7 +207,6 @@
         }
 
     </script>
-
 
 </body>
 </html>
