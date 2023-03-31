@@ -1,3 +1,21 @@
+/* Colores viejos y nuevos
+
+    Viejos : #e3e6f3 Blanco tenue.
+            #1a1a1a Negro tenue.
+            #d7837d Rosa ligero.
+            #606063 Gris tenue.
+            #ffbd27 Dorado, amarillo fuerte.
+            #c9cbce Blanco, pastel ligero.
+
+    Nuevos:  #e2cde4 Rosa tenue, pastel.
+            #805e84 Violeta Oscuro, uva.
+            #624924 Marron
+            #f3eaf7 Blanco casi blanco
+            #a5759a Violeta mas claro
+            #382a41 Purpura muy oscuro
+
+*/
+
 html,body
 {
     width: 100%;
@@ -5,6 +23,7 @@ html,body
     margin: 0px;
     padding: 0px;
     overflow-x: scroll;
+    background-color: #382a41;
 }
 
 * {
@@ -69,23 +88,23 @@ html,body
 h1 {
     font-size: 50px;
     line-height: 64px;
-    color: #222;
+    color: #e2cde4;
 }
 
 h2 {
     font-size: 46px;
     line-height: 54px;
-    color: #222;
+    color: #e2cde4;
 }   
 
 h3 {
     font-size: 30px;
-    color: #222;
+    color: #e2cde4;
 }
 
 p {
     font-size: 16px;
-    color: #465b52;
+    color: #e2cde4;
     margin: 15px 0px 20px 0px;
 }
 
@@ -101,7 +120,7 @@ button.normal {
     font-size: 14px;
     font-weight: 600;
     padding: 15px 30px;
-    color: #000;
+    color: #f3eaf7;
     background-color: #fff;
     border-radius: 4px;
     cursor: pointer;
@@ -132,7 +151,7 @@ body {
     align-items: center;
     justify-content: space-between;
     padding: 20px 80px;
-    background-color: #e3e6f3;
+    background-color: #e2cde4;
     box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.06);
     z-index: 999;
     position: sticky;
@@ -156,7 +175,7 @@ body {
     text-decoration: none;
     font-size: 16px;
     font-weight: 600;
-    color: #1a1a1a;
+    color: #000;
     transition: 0.3s ease;
 }
 
@@ -220,14 +239,14 @@ body {
 }
 
 #product1 .pro .des span {
-    color: #606063;
+    color: #f3eaf7;
     font-size: 12px;
 }
 
 #product1 .pro .des h5 {
     padding-top: 7px;
     font-size: 14px;
-    color: #1a1a1a;
+    color: #f3eaf7;
 }
 
 #product1 .pro .des i {
@@ -406,7 +425,7 @@ body {
 #newsletter p {
     font-size: 14px;
     font-weight: 600;
-    color: #818ea0;
+    color: #818ea0; 
 }
 
 #newsletter p span {
@@ -442,6 +461,7 @@ footer {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    background-color: #382a41;
 }
 
 footer .col {
@@ -458,6 +478,7 @@ footer .logo {
 footer h4 {
     font-size: 14px;
     padding-bottom: 20px;
+    color: #f3eaf7;
 }
 
 footer p {
@@ -468,7 +489,7 @@ footer p {
 footer a {
     font-size: 13px;
     text-decoration: none;
-    color: #222;
+    color: #e2cde4;
     margin-bottom: 10px;
 }
 
@@ -477,7 +498,7 @@ footer .follow {
 }
 
 footer .follow i {
-    color: #465b52;
+    color: #e2cde4;
     padding-right: 4px;
     cursor: pointer;
 }
@@ -556,7 +577,7 @@ footer .copyright {
 #blog .blogDetails a {
     text-decoration: none;
     font-size: 11px;
-    color: #000;
+    color: #f3eaf7;
     font-weight: 700;
     position: relative;
     transition: 0.3s;
@@ -566,7 +587,7 @@ footer .copyright {
     content: "";
     width: 50px;
     height: 1px;
-    background-color: #000;
+    background-color: #f3eaf7;
     position: absolute;
     top: 4px;
     right: -60px;
@@ -656,6 +677,7 @@ footer .copyright {
 #contactDetails .details span,
 #formDetails form span {
     font-size: 12px;
+    color: #f3eaf7;
 }
 
 #contactDetails .details h2,
@@ -723,7 +745,7 @@ footer .copyright {
     align-items: center;
     padding: 25px;
     margin: 25px;
-    border: 1px solid rgba(000,000,000,0.5);
+    border: 1px solid #f3eaf7;
     border-radius: 40px;
     background-color: rgba(215, 131, 125, 0.25);
     backdrop-filter: blur(50px);
@@ -731,7 +753,7 @@ footer .copyright {
 
 .panelText a {
     text-decoration: none;
-    color: #000;
+    color: #f3eaf7;
     transition: 0.3s;
 }
 .panelText a:hover {
