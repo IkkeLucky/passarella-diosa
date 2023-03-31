@@ -108,6 +108,7 @@ button.normal {
     border: none;
     outline: none;
     transition: 0.2s;
+    cursor: pointer;
 }
 
 button.white {
@@ -208,11 +209,14 @@ body {
 #product1 .pro img {
     width: 100%;
     border-radius: 20px;
+    display: block;
+    margin: 0 auto;
 }
 
 #product1 .pro .des {
     text-align: start;
     padding: 10px 0;
+    margin: 0 auto;
 }
 
 #product1 .pro .des span {
@@ -253,6 +257,7 @@ body {
 
 #product1 .proContainer {
     display: flex;
+    margin: auto;
     justify-content: space-between;
     padding-top: 20px;
     flex-wrap: wrap;
@@ -496,7 +501,7 @@ footer .copyright {
     text-align: center;
 }
 
-/* Shop Page */
+/* Press Page */
 
 #pageHeader {
     background-image: url(img/diosa1.jpg);
@@ -585,10 +590,11 @@ footer .copyright {
     z-index: -9;
 }
 
-/* About Page  */
+/* Shop Page  */
 
 #pageHeader.aboutHeader {
     background-image: url(img/diosa4.jpg);
+    width: 100%;
 }
 
 #aboutHead img {
@@ -865,7 +871,8 @@ footer .copyright {
     }
 
     #product1 .proContainer {
-        justify-content: center;
+        display: flex;
+        justify-content: space-between;
     }
 
     #product1 .pro{
