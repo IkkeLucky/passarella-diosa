@@ -782,12 +782,16 @@ footer .copyright {
 
 @media (max-width: 477px) {
     
+    body {
+        overflow-x: hidden;
+    }
+
     .sectionp1 {
         padding: 20px;
     }
 
     .videoDiosa video{
-        width: 325px;
+        width: 100%;
         height: 300px;
     }
 
@@ -903,7 +907,7 @@ footer .copyright {
     }
 
     .videoDiosa video{
-        width: 825px;
+        width: 100%;
         height: 500px;
     }
 
