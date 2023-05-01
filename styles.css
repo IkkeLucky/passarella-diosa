@@ -85,6 +85,17 @@ html,body
         object-fit: cover;
 }
 
+.videoDiosa {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.videoDiosa video {
+    display: flex;
+    justify-content: center;
+}
+
 h1 {
     font-size: 50px;
     line-height: 64px;
@@ -775,6 +786,11 @@ footer .copyright {
         padding: 20px;
     }
 
+    .videoDiosa video{
+        width: 325px;
+        height: 300px;
+    }
+
     #header {
         padding: 15px 15px;
         width: 100%;
@@ -880,11 +896,17 @@ footer .copyright {
 }
 
 
-@media (max-width: 799px) {
+@media (min-width: 799px) and (max-width: 1080px) {
 
     .sectionp1{
         padding: 40px 40px;
     }
+
+    .videoDiosa video{
+        width: 825px;
+        height: 500px;
+    }
+
 
     #navi {
         display: flex;
