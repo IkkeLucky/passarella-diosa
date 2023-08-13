@@ -16,6 +16,23 @@
 
 */
 
+.navbar {
+    background-color: #d7837d;
+}
+
+.cardBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    padding: 10px;
+    margin: 20px;
+}
+
+
 html,body
 {
     width: 100%;
@@ -217,6 +234,7 @@ body {
 
 #product1 {
     text-align: center;
+    margin-top: 15px;
 }
 
 #product1 .pro {
@@ -821,6 +839,7 @@ footer .copyright {
 
     #banner {
         height: 30vh;
+        margin-bottom: 15px;
     }
 
     #banner3 {
