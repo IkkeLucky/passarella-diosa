@@ -17,41 +17,30 @@
 
 <body>
 
-    <!-- <section id="header">
-        <div>
-            <ul id="navi">
-            <li><a class="active" href="index.html">Home</a></li>
-            <li><a href="shop.html">Shop</a></li>
-            <li><a href="blog.html">Blog</a></li>
-            <li><a href="press.html">Press</a></li>
-            <li><a href="contact.html">Contact</a></li>
-            <li id="lgBag"><a href="shop.html"><i class="fa-solid fa-basket-shopping"></i></a></li>
-            </ul>
-        </div>
-    </section> -->
-
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="index.html">Diosa</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item active">
-              <a class="nav-link" href="shop.html">Shop <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="blog.html">Blog</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="press.html">Press</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
+    <section class="barra">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="index.html">Diosa</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="shop.html">Shop</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="blog.html">Blog</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="press.html">Press</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </section>
 
     <section class="swiperbg">
     <div class="swiper mySwiper">
@@ -91,7 +80,8 @@
     
 
     <section id="aboutHead" class="sectionp1">
-        <img src="img/sarah.jpg" alt="">
+        <div><img src="img/sarah.jpg" class="img-fluid" alt="Responsive image"></div>
+        
         <div>
             <h2>¿Who is La Diosa?</h2>
             <p>THE GODDESS IS THE PERSONAL BRAND OF THE DESIGNER / IMAGE CONSULTANT <a href="https://www.fotoplatino.com/fp466">SARAH NATHALIE FELICIANI, EX-MODEL</a> 
@@ -103,76 +93,82 @@
     </section>
 
     <section id="aboutHead" class="sectionp1">
-        <img src="img/sarah2.jpg" class="img1" alt="">
+        <div><img src="img/sarah2.jpg" class="img-fluid img1" alt="Responsive image"></div>
+        
         <div>
             <h2>Who we are?</h2>
             <p> WE ARE A CREATIVE AND DESIGNER BUSINESS PLATFORM, taking into account fashion and its tendencies as a base, we want to continually rise the buying experience of our guests throughout interactivity and personalization as a service. <br><br> Create, help and serve as our main element when it comes to personal image of our guests.
             </p>
         </div>
-        <img src="img/sarah2.jpg" class="img2" alt="">
+         <div><img src="img/sarah2.jpg" class="img-fluid img2" alt="Responsive image"></div>
     </section>
 
     <section id="aboutHead" class="sectionp1">
-        <img src="img/sarah3.jpg" alt="">
+         <div><img src="img/sarah3.jpg" class="img-fluid" alt="Responsive image"></div>
         <div>
             <h2>Essence of the brand</h2>
             <p>The SOUL of PASSARELLADIOSA<br><br> We are a brand that gives to the people that uses it, through personal designs, customizations and personal articles, support and ITEMS OF VALUE, objects and tools that give value to their lives. <br><br> It gives quality of life, enhancement of the image, selfsteem and current of vital energy that wraps our users in emotional support.<br><br> Our DNA is SUPPORT AND A STREAM OF POSITIVE MESSAGES AND PERSONAL GROWTH THROUGHOUT FASHION AND ESTHETIC. </p>
         </div>
     </section>
 
-    <section id="product1">
-        <h2>Featured Products</h2>
-        <p>Summer Collection New Design</p>
-        <div class="proContainer">
-            <div class="pro">
-                <img src="img/products/tshirt-diosa.jpg" width="400" height="400" alt="">
-                <div class="des">
-                    <span>Diosa</span>
-                    <h5>Tshirt Diosa Launch</h5>
-                    
-                    <h4>$13.33</h4>
+    <section class="cardBox">
+
+        <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="img/products/tshirt-diosa.jpg" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">Tshirt Diosa</h5>
+                <p class="card-text">Diosa content legacy</p>
+                <div class="buyButton">
+                    <p>13.33EUR</p>  <a href="https://buy.stripe.com/aEU6qf4Mg7g65jyfYZ" class="btn btn-bg-light">Buy now!</a> 
                 </div>
-                <a href="https://buy.stripe.com/aEU6qf4Mg7g65jyfYZ"><i id="icon" class="fa-solid fa-basket-shopping"></i></a>
+              </div>
+          </div>
+    
+          <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="img/products/skirt-olivia.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Skirt Olivia</h5>
+              <p class="card-text">Diosa content legacy</p>
+              <div class="buyButton">
+                <p>25.55EUR</p>  <a href="https://buy.stripe.com/cN215V4Mg1VM7rGaEL" class="btn btn-bg-light">Buy now!</a>
+              </div>
             </div>
-            <div class="pro">
-                <img src="img/products/skirt-olivia.jpg" width="400" height="400" alt="">
-                <div class="des">
-                    <span>Diosa</span>
-                    <h5>Skirt Olivia</h5>
-                    
-                    <h4>$25.55</h4>
+          </div>
+    
+        <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="img/products/earrings-diosa.jpg" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">Earrings Feria</h5>
+                <p class="card-text">Diosa content legacy</p>
+                <div class="buyButton">
+                    <p>13EUR</p>  <a href="https://buy.stripe.com/6oE3e3guY0RIfYcfZ3" class="btn btn-bg-light">Buy now!</a> 
                 </div>
-                <a href="https://buy.stripe.com/cN215V4Mg1VM7rGaEL"><i id="icon" class="fa-solid fa-basket-shopping"></i></a>
-            </div>
-            <div class="pro">
-                <img src="img/products/earrings-diosa.jpg" width="400" height="400" alt="">
-                <div class="des">
-                    <span>Diosa</span>
-                    <h5>Earrings Feria</h5>
-                    <h4>$13</h4>
+              </div>
+          </div>
+    
+          <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="img/products/arrecife-sirens.jpg" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">Arrecife Sirens</h5>
+                <p class="card-text">Diosa content legacy</p>
+                <div class="buyButton">
+                    <p>17.77EUR</p>  <a href="https://buy.stripe.com/aEUdSH1A4dEu6nC8wC" class="btn btn-bg-light">Buy now!</a> 
                 </div>
-                <a href="https://buy.stripe.com/6oE3e3guY0RIfYcfZ3"><i id="icon" class="fa-solid fa-basket-shopping"></i></a>
-            </div>
-            <div class="pro">
-                <img src="img/products/arrecife-sirens.jpg" width="400" height="400" alt="">
-                <div class="des">
-                    <span>Diosa</span>
-                    <h5>Earrings Arrecife de las Sirenas</h5>
-                    <h4>$17.77</h4>
+              </div>
+          </div>
+    
+        <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="img/products/beltlove.jpeg" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">Cinturon Love</h5>
+                <p class="card-text">Diosa content legacy</p>
+                <div class="buyButton">
+                    <p>27.77EUR</p>  <a href="https://buy.stripe.com/28o5mb92wbwmdQ414f" class="btn btn-bg-light">Buy now!</a> 
                 </div>
-                <a href="https://buy.stripe.com/aEUdSH1A4dEu6nC8wC"><i id="icon" class="fa-solid fa-basket-shopping"></i></a>
-            </div>
-            <div class="pro">
-                <img src="img/products/beltlove.jpeg" width="400" height="400" alt="">
-                <div class="des">
-                    <span>Diosa</span>
-                    <h5>Cinturon Elastico Love</h5>
-                    <h4>$27.77</h4>
-                </div>
-                <a href="https://buy.stripe.com/28o5mb92wbwmdQ414f"><i id="icon" class="fa-solid fa-basket-shopping"></i></a>
-            </div>
-        </div>
-    </section>
+              </div>
+          </div>
+    
+        </section>
 
     <!-- <section id="banner">
         <h4>Browse our Accessories</h4>
@@ -180,7 +176,7 @@
         <button class="normal">Explore more</button>
     </section> -->
 
-    <section id="smBanner">
+    <!-- <section id="smBanner">
         <div class="bannerBox">
             <h4>Crazy Deals</h4>
             <h2>Buy 1 get 1 free</h2>
@@ -193,33 +189,23 @@
             <span>The best classic dress is on sale at Diosa</span>
             <button class="white">Collection</button>
         </div>
+    </section> -->
+
+    <section id="cardBig">
+
+    <div class="card mb-3" style="margin-left: 50px; margin-right: 50px;">
+        <img class="card-img-top" src="img/sarahsoon.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Masterclass - Optimizing your personal purchases</h5>
+          <p class="card-text">Save up to 50% in your current purchases</p>
+          <p class="card-text"><small class="text-muted">Coming soon</small></p>
+        </div>
+      </div>
+
     </section>
 
-    <section id="banner3">
-        <div class="bannerBox">
-            <h2>SEASONAL SALE</h2>
-            <h3>Winter Collection -50% off</h3>
-        </div>
-        <div class="bannerBox bannerBox2">
-            <h2>SEASONAL SALE</h2>
-            <h3>Winter Collection -50% off</h3>
-        </div>
-        <div class="bannerBox bannerBox3">
-            <h2>SEASONAL SALE</h2>
-            <h3>Winter Collection -50% off</h3>
-        </div>
-    </section>
 
-    <section id="newsletter" class="sectionp1 sectionm1">
-        <div class="newstext">
-            <h4>Sign up for newsletter</h4>
-            <p>Get email updates about our latest shop and <span>special offers.</span></p>
-        </div>
-        <div class="form">
-            <input type="text" placeholder="Your email address">
-            <button class="normal">Sign Up</button>
-        </div>
-    </section>
+
 
     <footer class="sectionp1">
         <div class="col">
