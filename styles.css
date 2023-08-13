@@ -16,6 +16,8 @@
 
 */
 
+
+
 .navbar {
     background-color: #d7837d;
 }
@@ -27,10 +29,54 @@
     flex-wrap: wrap;
 }
 
+#cardBig .card {
+    height: 60vh;
+}
+
+#cardBig .card img {
+    height: 50vh;
+}
+
 .card {
     padding: 10px;
     margin: 20px;
 }
+
+.navbar-brand {
+    font-size: 30px;
+}
+
+.nav-link {
+    color: white;
+    transition: ease 0.5s;
+    font-size: 24px;
+}
+
+.buyButton {
+    display: flex;
+    justify-content: space-between;
+    border-color: white;
+}
+
+.buyButton p {
+    color: black;
+    font-size: 20px;
+}
+
+.buyButton a {
+    color: black;
+    background-color: #eec5c2;
+    font-size: 20px;
+    margin-top: 5px;
+    max-height: 45px;
+}
+
+.buyButton a:hover {
+    background-color: whitesmoke;
+    color: black;
+}
+
+
 
 
 html,body
@@ -174,54 +220,7 @@ body {
     width: 100%;
 }
 
-#header {
-    display: flex; 
-    align-items: center;
-    justify-content: space-between;
-    padding: 20px 80px;
-    background-color: #e2cde4;
-    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.06);
-    z-index: 999;
-    position: sticky;
-    top: 0;
-    left: 0;
-}
 
-#navi {
-    display: flex; 
-    align-items: center;
-    justify-content: center;
-}
-
-#navi li {
-    list-style: none;
-    padding: 0 20px;
-    position: relative;
-}
-
-#navi li a {
-    text-decoration: none;
-    font-size: 16px;
-    font-weight: 600;
-    color: #000;
-    transition: 0.3s ease;
-}
-
-#navi li a:hover,
-#navi li a.active {
-    color: #d7837d;
-}
-
-#navi li a.active::after,
-#navi li a:hover::after {
-    content: "";
-    width: 20%;
-    height: 1px;
-    background: #d7837d;
-    position: absolute;
-    bottom: -4px;
-    left: 20px;
-}
 
 #mobile {
     display: none;
@@ -311,39 +310,7 @@ body {
     flex-wrap: wrap;
 }
 
-#banner {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    background-image: url(img/banner/b2.jpg);
-    width: 100%;
-    height: 40vh;
-    background-size: cover;
-    background-position: center;
-    margin-bottom: 25px;
-}
 
-#banner h4 {
-    color: #fff;
-    font-size: 16px;
-}
-
-#banner h2 {
-    color: #fff;
-    font-size: 30px;
-    padding: 10px 0;
-}
-
-#banner h2 span {
-    color: #ef3636;
-}
-
-#banner button:hover{
-    background-color: #d7837d;
-    color: #fff;
-}
 
 #smBanner {
     display: flex;
@@ -434,57 +401,7 @@ body {
     background-image: url(img/banner/b18.jpg);
 }
 
-#newsletter {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    align-items: center;
-    background-image: url(img/banner/b14.png);
-    background-repeat: no-repeat;
-    background-position: 20% 30%;
-    background-color: #041e42;
-}
 
-#newsletter h4 {
-    font-size: 22px;
-    font-weight: 700;
-    color: #fff;
-}
-
-#newsletter p {
-    font-size: 14px;
-    font-weight: 600;
-    color: #818ea0; 
-}
-
-#newsletter p span {
-    color: #ffbd27;
-}
-
-#newsletter .form {
-    display: flex;
-    width: 40%;
-}
-
-#newsletter input {
-    height: 3.125rem;
-    padding: 0 1.25em;
-    font-size: 14px;
-    width: 100%;
-    border: 1px solid transparent;
-    border-radius: 4px;
-    outline: none;
-    border-top-right-radius: 0;
-    border-bottom-right-radius: 0;
-}
-
-#newsletter button {
-    background-color: #d7837d;
-    color: white;
-    white-space: nowrap;
-    border-top-left-radius: 0;
-    border-bottom-left-radius: 0;
-}
 
 footer {
     display: flex;
@@ -647,11 +564,7 @@ footer .copyright {
     width: 100%;
 }
 
-#aboutHead img {
-    width: 30%;
-    height: auto;
-    border-radius: 15%;
-}
+
 
 #aboutHead .img1 {
     display: none;
@@ -670,8 +583,8 @@ footer .copyright {
 }
 
 #aboutHead div {
-    padding-left: 40px;
-    padding-right: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 #aboutHead a {
@@ -680,7 +593,7 @@ footer .copyright {
 }
 
 #aboutHead p {
-    font-size: calc(15px + 0.390625vw)
+    font-size: calc(10px + 0.390625vw)
 }
 
 /* Contact Page */
