@@ -30,13 +30,25 @@
     flex-wrap: wrap;
 }
 
-#cardBig .card {
-    height: 60vh;
+#cardBig {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    margin: 40px;
+    padding: 20px;
+    border-radius: 30px;
+    gap: 40px;
 }
 
-#cardBig .card img {
-    height: 50vh;
+#cardBig img {
+    width: 200px;
+    height: 200px;
 }
+
+.advisorytext {
+    margin-top: 40px;
+}
+
 
 .card {
     padding: 10px;
@@ -773,6 +785,18 @@ footer .copyright {
     #newsletter .form {
         width: 100%;
     }
+
+    #cardBig {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #cardBig img {
+        margin-right: 0;
+    }
+
 
     /* Blog Page */
 
