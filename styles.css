@@ -583,6 +583,9 @@ footer .copyright {
     width: 100%;
 }
 
+#pageHeader.aboutHeader2 {
+    background-image: url(img/sale.jpg);
+}
 
 
 #aboutHead .img1 {
@@ -729,6 +732,14 @@ footer .copyright {
     width: 60%;
     border-radius: 25px;
 }
+
+/* Advisory page  */
+
+#pageHeader.advisoryHeader {
+    background-image: url(img/shopping.jpg);
+    width: 100%;
+}
+
 
 @media (max-width: 477px) {
     
