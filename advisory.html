@@ -7,62 +7,15 @@
     <title>Diosa</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
-
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@200&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/bae92ef3f4.js" crossorigin="anonymous"></script>
-    <script type="text/javascript"
-    src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
-    </script>
-    <script type="text/javascript">
-    (function(){
-    emailjs.init("dspPzuC4sDTyvvdMU");
-    })();
-    </script>
 </head>
 
 
 <body>
-
-    <script>
-        function sendMail() {
-    var params = {
-        name : document.getElementById("name").value,
-        email: document.getElementById("email").value,
-        subject: document.getElementById("subject").value,
-        message: document.getElementById("message").value, 
-    };
-
-    const serviceID = "service_a3ldc2a";
-    const templateID = "template_ywvda0c";
-
-    emailjs
-    .send(serviceID, templateID, params)
-    .then((res) => {
-        document.getElementById("name").value = "";
-        document.getElementById("email").value = "";
-        document.getElementById("subject").value = "";
-        document.getElementById("message").value = "";
-        console.log(res);
-        alert("your message was sent successfully, thank you for your message!");
-    })
-    .catch((err) => console.log(err));
-}
-    </script>
-
-    <!-- <section id="header">
-        <div>
-            <ul id="navi">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="shop.html">Shop</a></li>
-            <li><a href="blog.html">Blog</a></li>
-            <li><a href="press.html">Press</a></li>
-            <li><a class="active" href="contact.html">Contact</a></li>
-            <li id="lgBag"><a href="shop.html"><i class="fa-solid fa-basket-shopping"></i></a></li>
-            </ul>
-        </div>
-    </section> -->
+    
 
     <section class="barra">
         <nav class="navbar navbar-expand-lg navbar-light">
@@ -92,56 +45,42 @@
           </nav>
         </section>
 
-    <section id="pageHeader" class="contactHeader">
-        <h2>PassarrellaDiosa</h2>
-        <p>Lets talk! Leave us a message</p>
+    <section id="pageHeader" class="advisoryHeader">
+        <h2>Advisory by Diosa</h2>
+        <p style="font-size: 22px;">Optimize your purchases</p>
     </section>
 
-    <section id="contactDetails" class="sectionp1">
-        <div class="details">
-            <span>GET IN TOUCH</span>
-            <h2>Visit one of our locations or contact us today</h2>
-            <h3>Head Office</h3>
 
-            <li>
-                <i class="fa-solid fa-map"></i>
-                <p>Hohe Bleichen 8, 20354 Hamburg</p>
-            </li>
-            <li>
-                <i class="fab fa-instagram"></i>
-                <a href="https://www.instagram.com/ladiosashop_soytudiosa/" style="text-decoration: none; color: #d7837d;">Follow us on Instagram</a>
-            </li>
-            <li>
-                <i class="fa-solid fa-phone"></i>
-                <a href="https://wa.me/4915753206358" style="text-decoration: none; color: #d7837d;">Only Whatsapp Messages</a>
-            </li>
-            <li>
-                <i class="fa-regular fa-clock"></i>
-                <p>Monday to Saturday: 9.00am to 16.00pm</p>
-            </li>
-            <li>
-                <i class="fa-solid fa-network-wired"></i>
-                <a href="https://www.ubc-collection.com/en/hamburg/conference-rooms/#c17484" style="text-decoration: none; color: #d7837d;" style="color: black;">Our Cowork</a>
-            </li>
-        </div>
 
-        <div class="map">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2370.275546221217!2d9.985283215846238!3d53.55284848002277!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47b18f1a2287cf31%3A0x7cde207243f6b019!2sHohe%20Bleichen%208%2C%2020354%20Hamburg%2C%20Germany!5e0!3m2!1sen!2sar!4v1680272037963!5m2!1sen!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
-    </section>
+    <section class="cardBox">
 
-    <section id="formDetails"> 
-        <form action="">
-            <span>LEAVE A MESSAGE</span>
-            <h2>We love to hear from you</h2>
-            <input type="text" id="name" placeholder="Your Name">
-            <input type="text" id="email" placeholder="Your E-mail">
-            <input type="text" id="subject" placeholder="Subject">
-            <textarea name="" id="message" cols="30" rows="10" placeholder="Your Message" style="resize: none;"></textarea>
-            <button type="button" class="normal" onclick="sendMail()">Submit</button>
-        </form>
-    </section>
+        
+    
+        </section>
 
+
+        <section id="cardBig">
+
+            <!-- <div class="card mb-3" style="margin-left: 50px; margin-right: 50px;">
+                
+                <div class="card-body">
+                  
+                </div>
+              </div> -->
+        
+        
+              <div class="advisoryimage">
+                <img class="card-img-top" src="img/sarahadvise.jpg" alt="Card image cap">
+              </div>
+              <div class="advisorytext">
+                <h5 class="card-title">Masterclass - Optimizing your personal purchases</h5>
+                  <p class="card-text">Save up to 50% in your current purchases</p>
+                  <div class="buyButton">
+                    <p>17EUR</p>  <a href="https://book.stripe.com/00gdSH92w43U6nC6oA" target="_blank" class="btn btn-bg-light">Buy now!</a> 
+                </div>
+              </div>
+        
+            </section>
 
     <footer class="sectionp1">
         <div class="col">
@@ -220,9 +159,9 @@
 
     </script>
 
-
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
 </body>
 </html>
