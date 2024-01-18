@@ -130,16 +130,16 @@ html,body
 .swiperbg {
     width: 100%;
     height: 85vh;
-    background-image: url(img/passarella.png);
+    background-image: url(img/passarella.webp);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 
 .swiper {
-    width: 50%;
-    height: 50%;
-    top: 225px;
+    width: 40%;
+    height: 70%;
+    top: 105px;
 }
 
 .swiper-slide {
@@ -490,7 +490,7 @@ footer .copyright {
 /* Press Page */
 
 #pageHeader {
-    background-image: url(img/diosa1.jpg);
+    background-image: url(img/diosa1.webp);
     width: 100%;
     height: 40vh;
     background-size: cover;
@@ -509,7 +509,7 @@ footer .copyright {
 /* Blog Page */
 
 #pageHeader.blogHeader {
-    background-image: url(img/diosa3.jpg);
+    background-image: url(img/diosa3.webp);
 }
 
 #blog {
@@ -579,7 +579,7 @@ footer .copyright {
 /* Shop Page  */
 
 #pageHeader.aboutHeader {
-    background-image: url(img/diosa4.jpg);
+    background-image: url(img/diosa4.webp);
     width: 100%;
 }
 
@@ -627,11 +627,11 @@ footer .copyright {
 }
 
 #pageHeader.contactHeader {
-    background-image: url(img/diosa5.jpg);
+    background-image: url(img/diosa5.webp);
 }
 
 #pageHeader.contactHeader2 {
-    background-image: url(img/diosa2.jpg);
+    background-image: url(img/diosa2.webp);
 }
 
 #contactDetails .details {
@@ -736,7 +736,7 @@ footer .copyright {
 /* Advisory page  */
 
 #pageHeader.advisoryHeader {
-    background-image: url(img/shopping.jpg);
+    background-image: url(img/shopping.webp);
     width: 100%;
 }
 
