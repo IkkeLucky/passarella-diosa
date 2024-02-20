@@ -573,7 +573,7 @@ footer .copyright {
     font-size: 70px;
     font-weight: 700;
     color: #c9cbce;
-    z-index: -9;
+    z-index: 1;
 }
 
 /* Shop Page  */
@@ -825,6 +825,7 @@ footer .copyright {
         width: 100%;
         margin-right: 0px;
         margin-bottom: 30px;
+        z-index: 0;
     }
 
     #blog .blogDetails {
