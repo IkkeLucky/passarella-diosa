@@ -1,27 +1,16 @@
-/* Colores viejos y nuevos
-
-    Viejos : #e3e6f3 Blanco tenue.
-            #1a1a1a Negro tenue.
-            #d7837d Rosa ligero.
-            #606063 Gris tenue.
-            #ffbd27 Dorado, amarillo fuerte.
-            #c9cbce Blanco, pastel ligero.
-
-    Nuevos:  #e2cde4 Rosa tenue, pastel.
-            #805e84 Violeta Oscuro, uva.
-            #624924 Marron
-            #f3eaf7 Blanco casi blanco
-            #a5759a Violeta mas claro
-            #382a41 Purpura muy oscuro
-
-*/
-
-
 
 .navbar {
     background-color: #382a41;
+    align-items: center;
 }
 
+#navbarNav {
+    justify-content: center;
+}
+
+.navbar-nav {
+    gap: 30px;
+}
 
 .cardBox {
     display: flex;
@@ -36,7 +25,6 @@
     background-color: white;
     margin: 40px;
     padding: 20px;
-    border-radius: 30px;
     gap: 40px;
 }
 
@@ -127,55 +115,18 @@ html,body
     right: 25px;
 }
 
-.swiperbg {
-    width: 100%;
-    height: 85vh;
-    background-image: url(img/passarella.webp);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
-
-.swiper {
-    width: 40%;
-    height: 70%;
-    top: 105px;
-}
-
-.swiper-slide {
-    text-align: center;
-    font-size: 18px;
-    background: #fff;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    -webkit-justify-content: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    -webkit-align-items: center;
-    align-items: center;
-    }
-
-    .swiper-slide img {
-        display: block;
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-}
 
 .videoDiosa {
     display: flex;
     justify-content: center;
-    padding: 10px;
 }
 
 .videoDiosa video {
     display: flex;
     justify-content: center;
+    width: 100%;
+    height: 80vh;
+    object-fit: cover;
 }
 
 h1 {
@@ -753,7 +704,6 @@ footer .copyright {
 
     .videoDiosa video{
         width: 100%;
-        height: 300px;
     }
 
     #header {
@@ -872,6 +822,15 @@ footer .copyright {
         width: 100%;
         margin-bottom: 30px;
     }
+
+    #navbarNav {
+        justify-content: center;
+        padding-top: 20px;
+    }
+    
+    .navbar-nav {
+        gap: 0px;
+    }
 }
 
 
@@ -883,7 +842,6 @@ footer .copyright {
 
     .videoDiosa video{
         width: 100%;
-        height: 500px;
     }
 
 
@@ -918,4 +876,25 @@ footer .copyright {
     #newsletter .form {
         width: 70%;
     } 
+
+    #navbarNav {
+        justify-content: center;
+        padding-top: 20px;
+    }
+    
+    .navbar-nav {
+        gap: 0px;
+    }
+}
+
+@media (min-width: 478px) and (max-width: 798px) {
+
+    #navbarNav {
+        justify-content: center;
+        padding-top: 20px;
+    }
+    
+    .navbar-nav {
+        gap: 0px;
+    }
 }
