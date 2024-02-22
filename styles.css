@@ -589,6 +589,10 @@ footer .copyright {
     width: 40%;
 }
 
+#formDetails {
+    padding-top: 50px;
+}
+
 #contactDetails .details span,
 #formDetails form span {
     font-size: 12px;
