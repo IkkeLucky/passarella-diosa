@@ -68,6 +68,8 @@ p {
 }
 
 
+
+
 .card {
     padding: 10px;
     margin: 20px;
@@ -396,6 +398,8 @@ footer .copyright {
     z-index: 1;
 }
 
+
+
 /* Shop Page  */
 
 #pageHeader.aboutHeader {
@@ -536,6 +540,36 @@ footer .copyright {
 }
 
 
+#more {display: none;}
+#more2 {display: none;}
+#more3 {display: none;}
+  
+#myBtn {
+    color: black;
+    background-color: #eec5c2;
+    font-size: 20px;
+    max-height: 45px;
+    border-radius: 10px;
+    padding: 10px;
+}
+#myBtn2 {
+    color: black;
+    background-color: #eec5c2;
+    font-size: 20px;
+    max-height: 45px;
+    border-radius: 10px;
+    padding: 10px;
+}
+#myBtn3 {
+    color: black;
+    background-color: #eec5c2;
+    font-size: 20px;
+    max-height: 45px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+/* colaboradores  */
 
 
 @media (max-width: 477px) {
@@ -546,6 +580,7 @@ footer .copyright {
 
     .sectionp1 {
         padding: 20px;
+        display: block;
     }
 
     .videoDiosa video{
@@ -744,5 +779,11 @@ footer .copyright {
         height: 230px; /* Ajusta la altura según tus necesidades */
         object-fit: cover;
         object-position: center;
+    }
+}
+
+@media (min-width: 1150px) {
+    .advisorytext {
+        min-width: 800px;
     }
 }
