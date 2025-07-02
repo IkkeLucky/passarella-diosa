@@ -1,8 +1,5 @@
 // Load environment variables
-const result = require('dotenv').config({ path: '.env.local' });
-if (result.error) {
-    console.error('Error loading .env.local file:', result.error);
-}
+require('dotenv').config();
 
 const express = require('express');
 const stripe = require('stripe')(process.env.STRIPE_SECRET_KEY);
@@ -14,8 +11,8 @@ const port = process.env.PORT || 3000;
 
 // Debug environment variables (don't log full keys in production!)
 console.log('Environment Check:');
-console.log('- STRIPE_SECRET_KEY:', process.env.STRIPE_SECRET_KEY ? 'Present (starts with ' + process.env.STRIPE_SECRET_KEY.substring(0, 3) + '...)' : 'Missing');
-console.log('- STRIPE_PUBLISHABLE_KEY:', process.env.STRIPE_PUBLISHABLE_KEY ? 'Present (starts with ' + process.env.STRIPE_PUBLISHABLE_KEY.substring(0, 3) + '...)' : 'Missing');
+console.log('- STRIPE_SECRET_KEY:', process.env.STRIPE_SECRET_KEY ? 'Present' : 'Missing');
+console.log('- STRIPE_PUBLISHABLE_KEY:', process.env.STRIPE_PUBLISHABLE_KEY ? 'Present' : 'Missing');
 console.log('- STRIPE_WEBHOOK_SECRET:', process.env.STRIPE_WEBHOOK_SECRET ? 'Present' : 'Missing');
 console.log('- PORT:', process.env.PORT || '3000 (default)');
 
